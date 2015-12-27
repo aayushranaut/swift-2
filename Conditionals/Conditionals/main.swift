@@ -19,7 +19,7 @@ else {
 let animal = "cat"
 
 switch animal {
-    case "cat":
+    case "cat", "Cat":
         print("Found a cat")
         break
     case "dog":
