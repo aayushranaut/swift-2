@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "fd424cfb1f294d3a72a99d264d15f96f"
+build_time: [504523712, 155791000]
+inputs:
+  "/Users/aayushranaut/Developer/Swift-2/Optionals/Optionals/main.swift": [504523709, 0]
