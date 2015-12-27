@@ -1,8 +1,12 @@
 
-let someNumberString = "1"
+let someNumberString = "asa"
 
 let myNumber:Int?
 
 myNumber = Int(someNumberString)
 
-print(myNumber!)
+if myNumber != nil {
+    print(myNumber!)
+} else {
+    print("You didn't provide actual int");
+}
