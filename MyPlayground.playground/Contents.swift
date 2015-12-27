@@ -2,4 +2,8 @@
 
 import Cocoa
 
-var str = "Hello, playground"
+var name = "Aayush"
+
+name + "Ranaut"
+
+print(name)
