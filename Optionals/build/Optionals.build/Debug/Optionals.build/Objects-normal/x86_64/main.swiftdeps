@@ -6,12 +6,12 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "Int"
-- "someNumberString"
-- "myNumber"
-- "UnicodeScalarType"
-- "print"
 - "StringLiteralType"
+- "print"
+- "UnicodeScalarType"
+- "someNumberString"
+- "Int"
+- "myNumber"
 depends-member:
 - ["PSs22BidirectionalIndexType", "init"]
 - ["PSs21BitwiseOperationsType", "init"]
@@ -67,4 +67,4 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
-interface-hash: "58261e740986f797c569500f81f80a6c"
+interface-hash: "5bee04572966805964a9d8e7bf2cb494"

@@ -1,6 +1,8 @@
 
 let someNumberString = "1"
 
-let myNumber:Int? = Int(someNumberString)
+let myNumber:Int?
 
-print(myNumber)
+myNumber = Int(someNumberString)
+
+print(myNumber!)
