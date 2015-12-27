@@ -1,12 +1,5 @@
-//
-//  main.swift
-//  Add
-//
-//  Created by Aayush Ranaut on 12/27/15.
-//  Copyright © 2015 Prathmesh Ranaut. All rights reserved.
-//
 
-import Foundation
+var numbers = Process.arguments
 
-print("Hello, World!")
-
+let first = numbers[0]
+let second = numbers[1]
