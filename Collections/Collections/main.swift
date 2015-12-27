@@ -10,3 +10,5 @@ names.append("Sally")
 names += ["Joan", "Ellen"]
 
 names.isEmpty //true
+
+names.removeAtIndex(0)
