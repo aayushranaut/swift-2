@@ -14,3 +14,13 @@ names.isEmpty //true
 names.removeAtIndex(0)
 
 names.insert("John", atIndex: 1)
+
+// Set
+
+var number: Set = [1, 3, 2, 4, 5]
+
+let odds: Set = [1,3, 5, 7, 9]
+let evens: Set = [2, 4, 6, 8, 10]
+let primes: Set = [2, 3, 5, 7]
+
+var union = odds.union(evens) // [1 - 10]

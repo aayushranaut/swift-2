@@ -1,5 +1,5 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
 options: "c78c21d75122e5067c171a14eba9b4c7"
-build_time: [504525342, 785537000]
+build_time: [504525879, 544802000]
 inputs:
-  "/Users/aayushranaut/Developer/Swift-2/Collections/Collections/main.swift": [504525335, 0]
+  "/Users/aayushranaut/Developer/Swift-2/Collections/Collections/main.swift": [504525879, 0]
