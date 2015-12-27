@@ -1,5 +1,5 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
 options: "77ff8fda7aa27ca01d439d0e77ff19db"
-build_time: [504523089, 109633000]
+build_time: [504523255, 756024000]
 inputs:
-  "/Users/aayushranaut/Developer/Swift-2/Basic Types/Basic Types/main.swift": [504523087, 0]
+  "/Users/aayushranaut/Developer/Swift-2/Basic Types/Basic Types/main.swift": [504523255, 0]
