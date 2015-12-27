@@ -24,3 +24,6 @@ let evens: Set = [2, 4, 6, 8, 10]
 let primes: Set = [2, 3, 5, 7]
 
 var union = odds.union(evens) // [1 - 10]
+
+var intersect = odds.intersect(evens) // []
+
