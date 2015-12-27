@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "180fdd435d62c6181978441ea110b20c"
+build_time: [504522625, 368231000]
+inputs:
+  "/Users/aayushranaut/Developer/Swift-2/Variable and Constants/Variable and Constants/main.swift": [504522623, 0]
