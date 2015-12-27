@@ -34,3 +34,6 @@ var xor = odds.exclusiveOr(primes) //[1, 2, 9]
 //Dictionary
 
 var ages = [String: Int]()
+
+ages["Aayush"] = 19
+ages["John"] = 21
