@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D57CD6E51C2FE27F00E29F7E /* Variable and Constants */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Variable and Constants"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57CD6E51C2FE27F00E29F7E /* Variable and Constants */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.executable"; path = "Variable and Constants"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57CD6E81C2FE27F00E29F7E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
