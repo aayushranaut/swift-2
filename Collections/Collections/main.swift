@@ -1,4 +1,4 @@
 
 //Array 
 
-var names = Array<Int>()
+var names = [String]()
