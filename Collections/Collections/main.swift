@@ -37,3 +37,8 @@ var ages = [String: Int]()
 
 ages["Aayush"] = 19
 ages["John"] = 21
+
+//Clear the dictionary
+ages = [:]
+
+ages.isEmpty

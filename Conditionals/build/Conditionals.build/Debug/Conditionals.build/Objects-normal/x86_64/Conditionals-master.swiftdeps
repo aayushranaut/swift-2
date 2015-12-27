@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "cf795d079540c4012f49c4892c9f8229"
+build_time: [504528320, 902973000]
+inputs:
+  "/Users/aayushranaut/Developer/Swift-2/Conditionals/Conditionals/main.swift": [504528319, 0]
