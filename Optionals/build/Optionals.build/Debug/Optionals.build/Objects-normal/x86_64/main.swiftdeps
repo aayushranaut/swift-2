@@ -1,19 +1,70 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "someNumberString"
+- "myNumber"
 provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
+- "Int"
+- "someNumberString"
+- "myNumber"
+- "UnicodeScalarType"
 - "print"
 - "StringLiteralType"
 depends-member:
+- ["PSs22BidirectionalIndexType", "init"]
+- ["PSs21BitwiseOperationsType", "init"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs10Comparable", "init"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs9Equatable", "init"]
+- ["PSs16ForwardIndexType", "init"]
+- ["PSs8Hashable", "init"]
+- ["Si", "init"]
+- ["PSs21IntegerArithmeticType", "init"]
+- ["PSs25IntegerLiteralConvertible", "init"]
+- ["PSs11IntegerType", "init"]
+- ["PSs14MirrorPathType", "init"]
+- ["PSs21RandomAccessIndexType", "init"]
+- ["PSs17SignedIntegerType", "init"]
+- ["PSs16SignedNumberType", "init"]
+- ["PSs10Strideable", "init"]
+- ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- ["PSs14_Incrementable", "init"]
+- ["PSs22_IntegerArithmeticType", "init"]
+- ["PSs12_IntegerType", "init"]
+- ["PSs22_RandomAccessAmbiguity", "init"]
+- ["PSs12_Reflectable", "init"]
+- ["PSs18_SignedIntegerType", "init"]
+- ["PSs11_Strideable", "init"]
 depends-nominal:
+- "PSs22BidirectionalIndexType"
+- "PSs21BitwiseOperationsType"
+- "PSs11CVarArgType"
+- "PSs10Comparable"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- "Si"
+- "PSs21IntegerArithmeticType"
+- "PSs25IntegerLiteralConvertible"
+- "PSs11IntegerType"
+- "PSs14MirrorPathType"
+- "PSs21RandomAccessIndexType"
+- "PSs17SignedIntegerType"
+- "PSs16SignedNumberType"
+- "PSs10Strideable"
+- "PSs33_BuiltinIntegerLiteralConvertible"
+- "PSs14_Incrementable"
+- "PSs22_IntegerArithmeticType"
+- "PSs12_IntegerType"
+- "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- "PSs18_SignedIntegerType"
+- "PSs11_Strideable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
-interface-hash: "a1e97b5c750ad560cebb9856a2e89b73"
+interface-hash: "58261e740986f797c569500f81f80a6c"

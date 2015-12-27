@@ -1,12 +1,6 @@
-//
-//  main.swift
-//  Optionals
-//
-//  Created by Aayush Ranaut on 12/27/15.
-//  Copyright © 2015 Prathmesh Ranaut. All rights reserved.
-//
 
-import Foundation
+let someNumberString = "1"
 
-print("Hello, World!")
+let myNumber:Int? = Int(someNumberString)
 
+print(myNumber)
