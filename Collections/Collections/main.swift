@@ -27,3 +27,5 @@ var union = odds.union(evens) // [1 - 10]
 
 var intersect = odds.intersect(evens) // []
 
+var subtract = odds.subtract(primes) // [1, 9]
+
