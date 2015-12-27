@@ -30,3 +30,7 @@ var intersect = odds.intersect(evens) // []
 var subtract = odds.subtract(primes) // [1, 9]
 
 var xor = odds.exclusiveOr(primes) //[1, 2, 9]
+
+//Dictionary
+
+var ages = [String: Int]()
