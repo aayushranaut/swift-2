@@ -1,16 +1,16 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "myVariable"
+- "myConstant"
 - "hash"
 provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "print"
 - "FloatLiteralType"
+- "print"
 - "IntegerLiteralType"
+- "myConstant"
 - "hash"
-- "myVariable"
 - "Int"
 depends-member:
 - ["PSs22BidirectionalIndexType", "hashValue"]
@@ -67,4 +67,4 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
-interface-hash: "a35ee1caec920b89bb7c7fe57b6d910a"
+interface-hash: "081f899a703fb8a3a6122a3aff329886"

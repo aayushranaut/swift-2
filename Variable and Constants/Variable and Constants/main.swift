@@ -1,8 +1,14 @@
 
-var myVariable:Int = 5
+//var myVariable:Int = 5
+//
+//var hash = myVariable.hashValue
+//
+//myVariable = 50
+//
+//print(hash)
 
-var hash = myVariable.hashValue
+let myConstant:Int = 5
 
-myVariable = 50
+let hash = myConstant.hashValue
 
 print(hash)
