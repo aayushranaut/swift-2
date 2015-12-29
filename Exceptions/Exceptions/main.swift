@@ -12,6 +12,11 @@ func divide(firstValue first: Int, secondValue second: Int) throws -> Double {
     return Double(first) / Double(second);
 }
 
-var result = try divide(firstValue: 5, secondValue: 2)
+do {
+    var result = try divide(firstValue: 5, secondValue: 0)
+    print("The result is \(result)")
+} catch {
+    
+}
 
-print("The result is \(result)")
+

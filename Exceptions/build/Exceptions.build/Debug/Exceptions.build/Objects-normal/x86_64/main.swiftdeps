@@ -11,16 +11,16 @@ provides-dynamic-lookup:
 depends-top-level:
 - "Int"
 - "divide"
-- "ErrorType"
-- !private "/"
 - "FloatLiteralType"
-- "print"
-- "=="
+- !private "/"
+- "ErrorType"
 - "Double"
+- "=="
 - "IntegerLiteralType"
 - "MyCalcError"
-- "StringLiteralType"
 - "result"
+- "StringLiteralType"
+- "print"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["PSs22BidirectionalIndexType", "hashValue"]
@@ -185,4 +185,4 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
-interface-hash: "9ff19b0b871ab9ebc73de6946b619150"
+interface-hash: "ae9a196bf9b31709ab1c81d6548b77e4"
