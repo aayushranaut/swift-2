@@ -5,4 +5,6 @@ enum MySpecialError: ErrorType {
     case IReallyLikeThisError
 }
 
-throw MySpecialError.IReallyLikeThisError
+func myFunction() throws {
+    throw MySpecialError.IReallyLikeThisError
+}
