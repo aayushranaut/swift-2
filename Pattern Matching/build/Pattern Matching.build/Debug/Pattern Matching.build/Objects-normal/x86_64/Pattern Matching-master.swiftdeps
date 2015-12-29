@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "24189cb7db9cc0f86061d600e9a6f567"
+build_time: [504711739, 192546000]
+inputs:
+  "/Users/aayushranaut/Developer/Swift-2/Pattern Matching/Pattern Matching/main.swift": [504711737, 0]
