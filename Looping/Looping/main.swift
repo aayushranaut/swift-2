@@ -34,6 +34,9 @@ while value < 5 {
     value++;
 }
 
-do {
+value = 6
 
-} while
+repeat {
+    print("The value is \(value)")
+    value++;
+} while value < 5
