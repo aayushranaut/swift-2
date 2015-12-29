@@ -24,3 +24,12 @@ for var i = 1; i <= power; i++ {
 for _ in 1...power {
     answer *= number
 }
+
+// While loop
+
+var value = 0;
+
+while value < 5 {
+    print("The value is \(value)")
+    value++;
+}
