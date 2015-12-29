@@ -15,8 +15,8 @@ let (id, name) = emp
 // value-binding pattern example
 
 switch emp {
-    case let (id, ""):
-        print("Employee ID doesnt' have a name")
-    case let (id, name):
-        print("Employee name is \(name)")
+    case (1...124, _):
+        print("Employee is within the range")
+    case (_, _):
+        print("Employee is out of range")
 }
