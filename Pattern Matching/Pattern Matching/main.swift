@@ -11,3 +11,10 @@ let someValue = 50
 let emp = (123, "Aayush")
 
 let (id, name) = emp
+
+// value-binding pattern example
+
+switch emp {
+    case let (id, name):
+        print("Employee name is \(name)")
+}
