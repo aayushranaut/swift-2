@@ -9,21 +9,21 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "print"
-- "*="
-- "power"
-- "numbers"
 - "<="
-- "..."
+- "power"
 - "FloatLiteralType"
+- "<"
+- "..."
+- "IntegerLiteralType"
 - "++"
 - "answer"
-- "Array"
-- "IntegerLiteralType"
-- "<"
+- "numbers"
 - "value"
-- "StringLiteralType"
+- "Array"
 - "number"
+- "print"
+- "StringLiteralType"
+- "*="
 depends-member:
 - ["Sa", "Element"]
 - ["Sa", "Generator"]
@@ -327,4 +327,4 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
-interface-hash: "3bf6520b7f4f80626be188396da4493a"
+interface-hash: "d84ef5eb54cd8ac14f4fe8c9702a8b08"
