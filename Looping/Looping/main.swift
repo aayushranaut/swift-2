@@ -1,12 +1,8 @@
-//
-//  main.swift
-//  Looping
-//
-//  Created by Aayush Ranaut on 12/29/15.
-//  Copyright © 2015 Prathmesh Ranaut. All rights reserved.
-//
 
-import Foundation
+// For loop, for-in
 
-print("Hello, World!")
+let numbers = [1, 2, 3, 4, 5]
 
+for var index = 0; index < numbers.count; index++ {
+    print("The number is \(numbers[index])")
+}
