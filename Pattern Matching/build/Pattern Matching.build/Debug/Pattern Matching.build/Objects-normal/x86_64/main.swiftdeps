@@ -8,14 +8,15 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
+- "emp"
+- "print"
 - "..."
+- "name"
+- "FloatLiteralType"
+- !private "~="
+- "IntegerLiteralType"
 - "id"
 - "someValue"
-- "FloatLiteralType"
-- "emp"
-- "IntegerLiteralType"
-- "print"
-- "name"
 - "StringLiteralType"
 depends-member:
 - ["PSs22BidirectionalIndexType", "Distance"]
@@ -24,7 +25,10 @@ depends-member:
 - ["PSs21BitwiseOperationsType", "Distance"]
 - ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
 - ["PSs21BitwiseOperationsType", "_DisabledRangeIndex"]
+- ["Sb", "_getBuiltinLogicValue"]
 - ["Sb", "deinit"]
+- ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["PSs11BooleanType", "_getBuiltinLogicValue"]
 - ["PSs11CVarArgType", "Distance"]
 - ["PSs11CVarArgType", "IntegerLiteralType"]
 - ["PSs11CVarArgType", "_DisabledRangeIndex"]
@@ -41,11 +45,13 @@ depends-member:
 - ["PSs23CustomStringConvertible", "Generator"]
 - ["PSs23CustomStringConvertible", "IntegerLiteralType"]
 - ["PSs23CustomStringConvertible", "_DisabledRangeIndex"]
+- ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
 - ["Sd", "deinit"]
 - ["PSs9Equatable", "Distance"]
 - ["PSs9Equatable", "Generator"]
 - ["PSs9Equatable", "IntegerLiteralType"]
 - ["PSs9Equatable", "_DisabledRangeIndex"]
+- ["PSs9Equatable", "_getBuiltinLogicValue"]
 - ["PSs9Equatable", "init"]
 - ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
 - ["Sf", "deinit"]
@@ -56,6 +62,7 @@ depends-member:
 - ["PSs8Hashable", "Distance"]
 - ["PSs8Hashable", "IntegerLiteralType"]
 - ["PSs8Hashable", "_DisabledRangeIndex"]
+- ["PSs8Hashable", "_getBuiltinLogicValue"]
 - ["PSs8Hashable", "init"]
 - ["PSs9Indexable", "Generator"]
 - ["Si", "Distance"]
@@ -84,6 +91,7 @@ depends-member:
 - ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
 - ["PSs21RandomAccessIndexType", "_DisabledRangeIndex"]
 - ["VSs5Range", "Generator"]
+- ["VSs5Range", "deinit"]
 - ["VSs14RangeGenerator", "Element"]
 - ["PSs12SequenceType", "Element"]
 - ["PSs12SequenceType", "Generator"]
@@ -97,6 +105,7 @@ depends-member:
 - ["PSs10Strideable", "Distance"]
 - ["PSs10Strideable", "IntegerLiteralType"]
 - ["PSs10Strideable", "_DisabledRangeIndex"]
+- ["SS", "deinit"]
 - ["SS", "init"]
 - ["PSs30StringInterpolationConvertible", "init"]
 - ["PSs24StringLiteralConvertible", "init"]
@@ -107,6 +116,7 @@ depends-member:
 - ["VSs5UInt8", "deinit"]
 - ["Sc", "deinit"]
 - ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
 - ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
 - ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
@@ -123,6 +133,7 @@ depends-member:
 - ["PSs12_IntegerType", "Distance"]
 - ["PSs12_IntegerType", "IntegerLiteralType"]
 - ["PSs12_IntegerType", "_DisabledRangeIndex"]
+- ["VSs26_OptionalNilComparisonType", "deinit"]
 - ["PSs22_RandomAccessAmbiguity", "Distance"]
 - ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
 - ["PSs22_RandomAccessAmbiguity", "_DisabledRangeIndex"]
@@ -130,6 +141,7 @@ depends-member:
 - ["PSs12_Reflectable", "Generator"]
 - ["PSs12_Reflectable", "IntegerLiteralType"]
 - ["PSs12_Reflectable", "_DisabledRangeIndex"]
+- ["PSs12_Reflectable", "_getBuiltinLogicValue"]
 - ["PSs12_Reflectable", "init"]
 - ["PSs18_SignedIntegerType", "Distance"]
 - ["PSs18_SignedIntegerType", "IntegerLiteralType"]
@@ -141,6 +153,8 @@ depends-nominal:
 - "PSs22BidirectionalIndexType"
 - "PSs21BitwiseOperationsType"
 - "Sb"
+- "PSs25BooleanLiteralConvertible"
+- "PSs11BooleanType"
 - "PSs11CVarArgType"
 - "VSs9Character"
 - "VSs14ClosedInterval"
@@ -184,6 +198,7 @@ depends-nominal:
 - "VSs5UInt8"
 - "Sc"
 - "PSs31UnicodeScalarLiteralConvertible"
+- "PSs33_BuiltinBooleanLiteralConvertible"
 - "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
 - "PSs33_BuiltinIntegerLiteralConvertible"
 - "PSs32_BuiltinStringLiteralConvertible"
@@ -192,6 +207,7 @@ depends-nominal:
 - "PSs14_Incrementable"
 - "PSs22_IntegerArithmeticType"
 - "PSs12_IntegerType"
+- "VSs26_OptionalNilComparisonType"
 - "PSs22_RandomAccessAmbiguity"
 - "PSs12_Reflectable"
 - "PSs18_SignedIntegerType"
@@ -199,4 +215,4 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
-interface-hash: "e97ad383c799fe943f5caa9e41b2038c"
+interface-hash: "81b38ace1df5c8a0ad325494f93b3f34"
