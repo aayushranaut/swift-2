@@ -21,6 +21,6 @@ for var i = 1; i <= power; i++ {
     answer *= number
 }
 
-for num in 1...power {
+for _ in 1...power {
     answer *= number
 }
