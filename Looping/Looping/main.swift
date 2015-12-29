@@ -33,3 +33,7 @@ while value < 5 {
     print("The value is \(value)")
     value++;
 }
+
+do {
+
+} while
