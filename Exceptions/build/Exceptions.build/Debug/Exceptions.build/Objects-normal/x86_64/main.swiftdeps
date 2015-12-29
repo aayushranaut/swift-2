@@ -8,16 +8,16 @@ provides-member:
 - ["O10Exceptions11MyCalcError", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "divide"
+- !private "/"
+- "print"
+- "Double"
+- "FloatLiteralType"
 - "ErrorType"
 - "=="
 - "IntegerLiteralType"
 - "MyCalcError"
 - "StringLiteralType"
-- "print"
-- !private "/"
-- "Double"
-- "divide"
-- "FloatLiteralType"
 - "Int"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
@@ -38,6 +38,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "init"]
 - ["Sd", "deinit"]
 - !private ["Sd", "init"]
+- !private ["PSs9Equatable", "DivByOne"]
 - ["PSs9Equatable", "DivByZero"]
 - ["PSs9Equatable", "_code"]
 - ["PSs9Equatable", "_domain"]
@@ -45,6 +46,7 @@ depends-member:
 - ["PSs9Equatable", "hashValue"]
 - ["PSs9Equatable", "init"]
 - ["PSs9Equatable", ""]
+- !private ["PSs9ErrorType", "DivByOne"]
 - ["PSs9ErrorType", "DivByZero"]
 - ["PSs9ErrorType", "_code"]
 - ["PSs9ErrorType", "_domain"]
@@ -55,6 +57,7 @@ depends-member:
 - !private ["PSs23FloatLiteralConvertible", "init"]
 - !private ["PSs17FloatingPointType", "init"]
 - !private ["PSs16ForwardIndexType", "hashValue"]
+- !private ["PSs8Hashable", "DivByOne"]
 - ["PSs8Hashable", "DivByZero"]
 - ["PSs8Hashable", "_code"]
 - ["PSs8Hashable", "_domain"]
@@ -74,6 +77,7 @@ depends-member:
 - !private ["PSs11IntegerType", "hashValue"]
 - !private ["PSs14MirrorPathType", "hashValue"]
 - ["PSs14MirrorPathType", "init"]
+- ["O10Exceptions11MyCalcError", "DivByOne"]
 - ["O10Exceptions11MyCalcError", "DivByZero"]
 - ["O10Exceptions11MyCalcError", "_code"]
 - ["O10Exceptions11MyCalcError", "_domain"]
@@ -183,4 +187,4 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
-interface-hash: "bc29fbc6f90c74e718531ca8a8f852e2"
+interface-hash: "5f4dae14bd2f4624e7a079833759cd30"
