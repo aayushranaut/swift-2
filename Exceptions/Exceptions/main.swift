@@ -4,3 +4,5 @@ enum MySpecialError: ErrorType {
     case ScaryError
     case IReallyLikeThisError
 }
+
+throw MySpecialError.IReallyLikeThisError
