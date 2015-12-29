@@ -1,12 +1,8 @@
-//
-//  main.swift
-//  Guard
-//
-//  Created by Aayush Ranaut on 12/29/15.
-//  Copyright © 2015 Prathmesh Ranaut. All rights reserved.
-//
 
-import Foundation
-
-print("Hello, World!")
-
+func doSomething(val1: Int?, val2: Int?) {
+    if let number = val1 where val1 > 0 {
+        if let key = val2 where val2 < 100 {
+            print("\(number) + \(key)")
+        }
+    }
+}
