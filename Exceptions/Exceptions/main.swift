@@ -15,8 +15,8 @@ func divide(firstValue first: Int, secondValue second: Int) throws -> Double {
 do {
     var result = try divide(firstValue: 5, secondValue: 0)
     print("The result is \(result)")
-} catch {
-    
+} catch MyCalcError.DivByZero {
+    print("You can't divide by zero")
 }
 
 

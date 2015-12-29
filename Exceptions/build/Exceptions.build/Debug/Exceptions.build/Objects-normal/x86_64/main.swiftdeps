@@ -2,25 +2,23 @@
 provides-top-level:
 - "MyCalcError"
 - "divide"
-- "result"
 provides-nominal:
 - "O10Exceptions11MyCalcError"
 provides-member:
 - ["O10Exceptions11MyCalcError", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Int"
-- "divide"
-- "FloatLiteralType"
-- !private "/"
 - "ErrorType"
-- "Double"
 - "=="
 - "IntegerLiteralType"
 - "MyCalcError"
-- "result"
 - "StringLiteralType"
 - "print"
+- !private "/"
+- "Double"
+- "divide"
+- "FloatLiteralType"
+- "Int"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["PSs22BidirectionalIndexType", "hashValue"]
@@ -40,14 +38,14 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "init"]
 - ["Sd", "deinit"]
 - !private ["Sd", "init"]
-- !private ["PSs9Equatable", "DivByZero"]
+- ["PSs9Equatable", "DivByZero"]
 - ["PSs9Equatable", "_code"]
 - ["PSs9Equatable", "_domain"]
 - !private ["PSs9Equatable", "_getBuiltinLogicValue"]
 - ["PSs9Equatable", "hashValue"]
 - ["PSs9Equatable", "init"]
 - ["PSs9Equatable", ""]
-- !private ["PSs9ErrorType", "DivByZero"]
+- ["PSs9ErrorType", "DivByZero"]
 - ["PSs9ErrorType", "_code"]
 - ["PSs9ErrorType", "_domain"]
 - ["PSs9ErrorType", "hashValue"]
@@ -57,7 +55,7 @@ depends-member:
 - !private ["PSs23FloatLiteralConvertible", "init"]
 - !private ["PSs17FloatingPointType", "init"]
 - !private ["PSs16ForwardIndexType", "hashValue"]
-- !private ["PSs8Hashable", "DivByZero"]
+- ["PSs8Hashable", "DivByZero"]
 - ["PSs8Hashable", "_code"]
 - ["PSs8Hashable", "_domain"]
 - !private ["PSs8Hashable", "_getBuiltinLogicValue"]
@@ -185,4 +183,4 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
-interface-hash: "ae9a196bf9b31709ab1c81d6548b77e4"
+interface-hash: "bc29fbc6f90c74e718531ca8a8f852e2"
