@@ -12,3 +12,11 @@ for var index = 0; index < numbers.count; index++ {
 for num in numbers {
     print("The number is \(num)")
 }
+
+let number = 2
+let power = 8
+var answer = 1;
+
+for var i = 1; i <= power; i++ {
+    answer *= number
+}
